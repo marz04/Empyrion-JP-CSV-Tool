@@ -168,8 +168,7 @@ MIT License
 
 - GitHub: [marz04](https://github.com/marz04/Empyrion-JP-CSV-Tool)
 - Twitter: [@marz04](https://x.com/marz04)
-- Email: marz@marz04.net
 
 ## 謝辞
 
-このツールは Empyrion - Galactic Survival の日本語化プロジェクトのために開発されました。
+このツールは Empyrion - Galactic Survival の日本語化のために開発されました。
