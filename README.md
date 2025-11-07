@@ -24,6 +24,7 @@ Empyrion - Galactic Survival のローカライゼーションCSVファイルを
 - 翻訳エラーが発生した行を別ファイルに抽出
 
 ## ダウンロード
+https://github.com/marz04/Empyrion-JP-CSV-Tool/releases/tag/v1.0
 
 ### 配布パッケージ（推奨）
 
