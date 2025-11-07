@@ -1,10 +1,10 @@
-# Empyrion CSV Translation Tool
+# Empyrion JP CSV Marge Tool
 
-Empyrion - Galactic Survival のローカライゼーションCSVファイルを日本語化するためのツールです。
+Empyrion - Galactic Survival のローカライゼーションCSVファイル日本語化及び翻訳作業補助のためのツールです。
 
 ## このツールについて
 
-ゲーム本体のバージョンアップに伴い、ローカライゼーションCSVの項目が増えた場合などに、
+ゲーム本体のバージョンアップに伴い、ローカライゼーションCSVの項目増減が発生した場合などに、
 過去バージョンの翻訳ファイルから翻訳済み部分をマージしたCSVを作成します。
 
 翻訳作業の際に、「過去の翻訳済み情報を最新バージョンのCSVに反映させて残りの部分だけ翻訳すればよい状態にする」という目的で作成しました。
@@ -22,9 +22,9 @@ Empyrion - Galactic Survival のローカライゼーションCSVファイルを
 - 翻訳エラーが発生した行を別ファイルに抽出
 
 ## ダウンロード
-https://github.com/marz04/Empyrion-JP-CSV-Tool/releases/tag/v1.0
+https://github.com/marz04/Empyrion-JP-CSV-Tool/releases/
 
-### 配布パッケージ（推奨）
+### 配布パッケージ（Windows用EXE）
 
 `distribution/` フォルダに配布用のパッケージが含まれています：
 - `Empyrion CSV Tool.exe` - Windows実行ファイル（Pythonインストール不要）
@@ -51,8 +51,8 @@ Content\Extras\PDA\PDA.csv
 ※フォルダ直下に直接csvファイルを配置します
 
 #### 2_Translated フォルダ
-前バージョンなど、既に翻訳済みのCSVファイルを配置  
-※同名のファイルがあれば自動的にマージされます
+過去バージョンなどの翻訳済みのCSVファイルを格納
+※同名のファイル同士を自動的にマージします
 
 ### 2. ツールの実行
 
@@ -64,7 +64,10 @@ Content\Extras\PDA\PDA.csv
 4. 完成したファイルは `3_Result/` に出力されます
 5. 翻訳エラーがあった場合は `4_Error/` に出力されます
 
-**推奨:** 精度の高い翻訳が必要な場合は、自動翻訳のチェックを外して、マージのみを行い、残りを手動で翻訳してください。
+**エラー箇所の補完など:** 文面や内容により自動翻訳が上手く働かない事があります。
+`3_Result/`の完成ファイルを`1_Original`に移動
+`4_Error/`のcsvを手動で翻訳して、`2_Translated/`に移動
+これで実行すると、エラー箇所だけ差分でマージできます。
 
 **注意:** Windows Defender SmartScreenの警告が表示された場合は、「詳細情報」→「実行」をクリックしてください。
 
