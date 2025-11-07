@@ -42,12 +42,13 @@ Pythonスクリプトから実行する場合：
 ### 1. CSVファイルの準備
 
 #### 1_Original フォルダ
-Empyrionのインストールフォルダから現行バージョンのCSVファイルをコピー：
+Empyrionのインストールフォルダから以下のCSVファイルをコピー：
 ```
 Content\Configuration\Dialogues.csv
 Content\Extras\Localization.csv
 Content\Extras\PDA\PDA.csv
 ```
+※フォルダ直下に直接csvファイルを配置します
 
 #### 2_Translated フォルダ
 前バージョンなど、既に翻訳済みのCSVファイルを配置  
