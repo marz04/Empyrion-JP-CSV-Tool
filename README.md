@@ -19,8 +19,6 @@ Empyrion - Galactic Survival のローカライゼーションCSVファイルを
 
 - 既存の翻訳CSVファイルと新しいバージョンのCSVファイルをマージ
 - 未翻訳部分の自動翻訳（オプション、Google翻訳使用）
-- ゲーム内のタグ構造（`<color=#ffffff>text</color>`、`[b]text[/b]`など）を保持
-- プレースホルダー変数（`{variable}`）を保護
 - 翻訳エラーが発生した行を別ファイルに抽出
 
 ## ダウンロード
