@@ -37,12 +37,6 @@ wheels/
 .DS_Store
 Thumbs.db
 
-# 作業用フォルダ（ユーザーデータ）
-1_Original/
-2_Translated/
-3_Result/
-4_Error/
-
 # ログファイル
 *.log
 
